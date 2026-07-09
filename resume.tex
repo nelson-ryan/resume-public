@@ -1,0 +1,21 @@
+
+\documentclass{resume}
+
+\begin{document}
+\DTMsetdatestyle{monthtoyear}
+\namecontactheader
+\vspace{1ex}
+\begin{minipage}[t]{.3\textwidth}
+    \input{general.tex}
+
+    \input{education.tex}
+    \input{cert.tex}
+    \input{publication.tex}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.6\textwidth}
+    \input{projects.tex}
+    \input{experience.tex}
+\end{minipage}
+\hfill
+\end{document}
