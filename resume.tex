@@ -1,0 +1,22 @@
+
+\documentclass{resume}
+
+\begin{document}
+\DTMsetdatestyle{yearonly}
+\namecontactheader
+\vspace{1ex}
+\begin{minipage}[t]{.3\textwidth}
+    \input{general.tex}
+
+    \input{education.tex}
+    \input{cert.tex}
+    \input{publication.tex}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.6\textwidth}
+    \vspace{-\topskip}
+    \input{experience.tex}
+    \input{projects.tex}
+\end{minipage}
+\hfill
+\end{document}
